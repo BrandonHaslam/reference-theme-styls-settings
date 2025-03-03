@@ -521,9 +521,9 @@
                 "form_id": "143638",
                 "text_color": "#202020",
                 "button_background_color": "#202020",
-                "button_label_color": "#FFFFFF",
-                "links_color": "#1878B9",
-                "errors_color": "#E02229",
+                "button_label_color": "#ffffff",
+                "links_color": "#1878b9",
+                "errors_color": "#e02229",
                 "text_alignment": "center",
                 "form_alignment": "center",
                 "padding_top": 0,
@@ -531,13 +531,78 @@
                 "padding_right": 0,
                 "padding_left": 0
               }
+            },
+            "product_card_d7Jz3q": {
+              "type": "product-card",
+              "settings": {
+                "product": "selling-plans-ski-wax",
+                "size": {},
+                "spacing": {},
+                "layout": {
+                  "flex-direction": "column"
+                }
+              },
+              "blocks": {
+                "product_medias_9i4MN6": {
+                  "type": "product-medias",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "media_featured": true,
+                    "size": {},
+                    "spacing": {}
+                  }
+                },
+                "product_title_Mkitkx": {
+                  "type": "product-title",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "heading_size": "h5",
+                    "alignment": "start",
+                    "size": {},
+                    "spacing": {}
+                  }
+                },
+                "price_97Bp7d": {
+                  "type": "price",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "size": {},
+                    "spacing": {}
+                  }
+                },
+                "link_XeCnN4": {
+                  "type": "link",
+                  "settings": {
+                    "link": "",
+                    "label": "Primary button label",
+                    "style_class": "button",
+                    "open_in_new_tab": false,
+                    "icon": "none",
+                    "icon_position": "left",
+                    "size": {},
+                    "spacing": {
+                      "padding-block-start": "10px",
+                      "padding-inline-end": "30px",
+                      "padding-block-end": "10px",
+                      "padding-inline-start": "30px"
+                    }
+                  }
+                }
+              },
+              "block_order": [
+                "product_medias_9i4MN6",
+                "product_title_Mkitkx",
+                "price_97Bp7d",
+                "link_XeCnN4"
+              ]
             }
           },
           "block_order": [
             "text_zQL3DW",
             "text_mEFQnx",
             "link_Jq4Bj3",
-            "forms_inline_9nYxHN"
+            "forms_inline_9nYxHN",
+            "product_card_d7Jz3q"
           ]
         }
       },
